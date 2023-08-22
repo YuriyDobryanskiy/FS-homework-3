@@ -292,6 +292,9 @@ main .portfolio .work {
   align-self: auto;
   order: 0;
 }
+main .parts .block {
+  width: calc((100% - 72px) / 4);
+}
 main .team .person {
   /*width: calc((100% - 72px) / 4);*/
 }
