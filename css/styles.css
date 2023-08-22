@@ -242,6 +242,7 @@ main .portfolio ul {
   justify-content: center;
   align-items: flex-start;
   align-content: flex-start;
+  gap: 24px;
 }
 main .parts h2,
 main .team h2,
@@ -268,7 +269,9 @@ main .portfolio .work {
   flex-basis: auto;
   align-self: auto;
   order: 0;
-  margin-right: 24px;
+}
+main .team .person {
+  /*width: calc((100% - 72px) / 4);*/
 }
 main .parts .block h3 {
   color: #2e2f42;
@@ -305,6 +308,8 @@ main .team ul li {
 main .team ul li img,
 main .portfolio img {
   margin-bottom: 32px;
+  object-fit: inherit;
+  width: 100%;
 }
 main .team ul li h3 {
   font-size: 20px;
@@ -334,7 +339,7 @@ main .portfolio .work {
   background: var(--white);
   padding-bottom: 32px;
 }
-main .portfolio .work:first-child {
+main .portfolio .work:nth-child(n) {
   margin-bottom: 48px;
 }
 main .portfolio .work h3 {
