@@ -75,8 +75,6 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-  margin: 0 !important;
-  padding: 0 !important;
 }
 .container {
   width: 1158px;
