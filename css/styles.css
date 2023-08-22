@@ -136,13 +136,15 @@ header > .blocks-wrapper nav ul {
   display: flex;
   gap: 40px;
 }
-header > nav ul li,
-header > address ul li {
-  display: inline-block;
-  margin-right: 40px;
-  position: relative;
+header > address ul {
+  display: flex;
+  gap: 40px;
 }
-header > nav ul li a,
+header > .blocks-wrapper nav ul li,
+header > address ul li {
+  padding: 24px 0;
+}
+header > .blocks-wrapper nav ul li a,
 header > address ul li a {
   font-weight: var(--bold-font);
   font-size: 16px;
@@ -153,13 +155,13 @@ header > address ul li a {
 header > address ul li a {
   color: #434455;
 }
-header > nav ul li a:hover,
+header > .blocks-wrapper nav ul li a:hover,
 header > address ul li a:hover,
-header > nav ul li a:focus,
+header > .blocks-wrapper nav ul li a:focus,
 header > address ul li a:focus {
   color: #404bbf;
 }
-header > nav ul li a::after {
+header > .blocks-wrapper nav ul li a::after {
   content: '';
   position: absolute;
   bottom: -5px;
@@ -171,11 +173,11 @@ header > nav ul li a::after {
   transform-origin: left center;
   transition: transform 0.3s ease;
 }
-header > nav ul li a:hover::after {
+header > .blocks-wrapper nav ul li a:hover::after {
   transform: scaleX(1);
 }
 
-header > nav ul li > .mainLink:focus {
+header > .blocks-wrapper nav ul li > .mainLink:focus {
   color: #404bbf;
 }
 /*nav*/
