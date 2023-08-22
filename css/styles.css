@@ -377,7 +377,7 @@ main .portfolio .work {
 }
 main .portfolio .work .work-title-block {
   padding: 32px 16px;
-  /*border: 1px solid #e7e9fc;*/
+  border: 1px solid #e7e9fc;
   border-top: none;
 }
 main .portfolio .work:nth-child(n) {
