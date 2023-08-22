@@ -65,18 +65,7 @@ img {
 }
 /*basic style*/
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  display: none;
   visibility: hidden;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 .container {
   width: 1158px;
@@ -277,7 +266,6 @@ main .portfolio h2 {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   text-align: center;
-  display: none;
   margin-bottom: 72px;
   line-height: 1.11;
   color: #2e2f42;
