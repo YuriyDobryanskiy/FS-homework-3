@@ -140,10 +140,7 @@ header > .blocks-wrapper address ul {
   display: flex;
   gap: 40px;
 }
-header > .blocks-wrapper nav ul .main-link,
-header > address ul li {
-  padding: 24px 0;
-}
+
 header > .blocks-wrapper nav ul li a,
 header > address ul li a {
   font-weight: var(--bold-font);
@@ -151,6 +148,7 @@ header > address ul li a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navybluemodal);
+  padding: 24px 0;
 }
 header > address ul li a {
   color: #434455;
