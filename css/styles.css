@@ -242,6 +242,7 @@ main .solution button {
   min-width: 169px;
   height: 56px;
   cursor: pointer;
+  margin: auto;
 }
 main .solution button:hover,
 main .solution button:focus {
