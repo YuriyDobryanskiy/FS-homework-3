@@ -320,6 +320,7 @@ main .team h2,
 main .portfolio h2 {
   display: block;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 main .team ul li {
   padding-bottom: 32px;
