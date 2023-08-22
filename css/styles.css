@@ -64,9 +64,18 @@ img {
   max-width: 100%;
 }
 /*basic style*/
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 
 header {
   background-color: var(--white);
+  padding: 24px 156px;
+  border-bottom: 1px solid #e7e9fc;
+}
+header > .blocks-wrapper {
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: row;
@@ -79,10 +88,8 @@ header {
   align-content: flex-start;
   -webkit-align-items: baseline;
   align-items: baseline;
-
-  padding: 24px 156px;
 }
-header > nav {
+header > .blocks-wrapper nav {
   -webkit-order: 0;
   order: 0;
   -webkit-flex: 0 1 auto;
@@ -97,7 +104,7 @@ header > nav {
   justify-content: normal;
   align-items: center;
 }
-header > nav > .logo,
+header > .blocks-wrapper nav > .logo,
 footer .logo {
   font-family: var(--logo-font-family);
   font-size: 18px;
@@ -114,24 +121,20 @@ footer .logo {
   order: 0;
   margin-right: 76px;
 }
-header > nav > .logo .studio {
+header > .blocks-wrapper nav > .logo .studio {
   color: var(--navyblue);
 }
-header > nav > a:hover,
+header > .blocks-wrapper nav > a:hover,
 footer a:hover {
   text-decoration: none;
 }
-header > nav ul {
+header > .blocks-wrapper nav ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
 
-  display: block;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  align-self: auto;
-  order: 0;
+  display: flex;
+  gap: 40px;
 }
 header > nav ul li,
 header > address ul li {
