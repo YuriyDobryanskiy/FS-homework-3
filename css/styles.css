@@ -98,7 +98,7 @@ header > nav {
   align-items: center;
 }
 header > nav > .logo,
-footer > .logo {
+footer .logo {
   font-family: var(--logo-font-family);
   font-size: 18px;
   font-weight: var(--bolder-font);
@@ -118,7 +118,7 @@ header > nav > .logo .studio {
   color: var(--navyblue);
 }
 header > nav > a:hover,
-footer > a:hover {
+footer a:hover {
   text-decoration: none;
 }
 header > nav ul {
@@ -193,7 +193,7 @@ main .parts,
 main .team,
 main .portfolio,
 footer {
-  padding: 188px 156px;
+  padding: 100px 0;
 }
 main .solution {
   background: var(--navyblue);
@@ -360,15 +360,15 @@ footer {
   padding-bottom: 100px;
   background: var(--navyblue);
 }
-footer > a span {
+footer .logo span {
   color: #f4f4fd;
 }
-footer > a {
-  color: var(--white);
-  margin-bottom: 17px;
+footer .logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
-footer > p {
-  width: 264px;
+footer p {
+  max-width: 264px;
   color: var(--cloud);
   letter-spacing: 0.32px;
 }
