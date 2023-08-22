@@ -296,7 +296,6 @@ main .parts .block {
   width: calc((100% - 72px) / 4);
 }
 main .team .person {
-  /*width: calc((100% - 72px) / 4);*/
 }
 main .parts .block .person-title-block {
   padding: 32px 0;
