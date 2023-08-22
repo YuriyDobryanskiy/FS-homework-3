@@ -298,9 +298,7 @@ main .parts .block {
 main .team .person {
   /*width: calc((100% - 72px) / 4);*/
 }
-main .parts .block .person-title-block {
-  padding: 32px 0;
-}
+
 main .parts .block h3 {
   color: #2e2f42;
   font-size: 20px;
@@ -336,6 +334,9 @@ main .team ul li {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
+main .team ul li .person-title-block {
+  padding: 32px 0;
+}
 main .team ul li img,
 main .portfolio img {
   margin-bottom: 32px;
@@ -360,6 +361,12 @@ main .portfolio .work p {
 main .team ul,
 main .portfolio ul {
   flex-wrap: wrap;
+}
+main .portfolio ul {
+  row-gap: 48px;
+}
+main .portfolio ul li {
+  width: calc((100% - 48px) / 3);
 }
 main .portfolio {
   padding-top: 120px;
