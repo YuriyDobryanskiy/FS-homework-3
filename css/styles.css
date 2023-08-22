@@ -65,7 +65,9 @@ img {
 }
 /*basic style*/
 .visually-hidden {
-  visibility: hidden;
+  /*visibility: hidden;
+  margin: 0 !important;
+  padding: 0 !important;*/
 }
 .container {
   width: 1158px;
