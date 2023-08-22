@@ -266,7 +266,6 @@ main .portfolio ul {
   align-content: flex-start;
   gap: 24px;
 }
-main .parts h2,
 main .team h2,
 main .portfolio h2 {
   color: #2e2f42;
