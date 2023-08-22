@@ -136,11 +136,11 @@ header > .blocks-wrapper nav ul {
   display: flex;
   gap: 40px;
 }
-header > address ul {
+header > .blocks-wrapper address ul {
   display: flex;
   gap: 40px;
 }
-header > .blocks-wrapper nav ul li,
+header > .blocks-wrapper nav ul .main-link,
 header > address ul li {
   padding: 24px 0;
 }
