@@ -242,7 +242,7 @@ main .solution button {
   min-width: 169px;
   height: 56px;
   cursor: pointer;
-  margin: 0 auto;
+  margin: auto;
 }
 main .solution button:hover,
 main .solution button:focus {
@@ -378,7 +378,7 @@ main .portfolio .work {
 }
 main .portfolio .work .work-title-block {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
+  /*border: 1px solid #e7e9fc;*/
   border-top: none;
 }
 main .portfolio .work:nth-child(n) {
