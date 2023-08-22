@@ -202,6 +202,7 @@ main .solution {
   background: var(--navyblue);
   text-align: center;
   color: var(--white);
+  padding: 188px 0;
 }
 main .solution h1 {
   text-transform: capitalize;
@@ -209,25 +210,29 @@ main .solution h1 {
   font-weight: var(--bolder-font);
   line-height: 1.07;
   letter-spacing: 1.12px;
-  width: 500px;
+  max-width: 496px;
   margin: 0 auto 48px;
 }
-main .solution > button {
+main .solution button {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   border-radius: 4px;
-  background: var(--iris);
+  background: #4d5ae5;
   color: var(--white);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  border: 0;
+  border: none;
   padding: 16px 32px;
   letter-spacing: 0.04em;
   transition: background-color 0.3s ease-out;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  cursor: pointer;
 }
-main .solution > button:hover,
-main .solution > button:focus {
+main .solution button:hover,
+main .solution button:focus {
   background-color: #404bbf;
   cursor: pointer;
 }
